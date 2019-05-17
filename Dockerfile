@@ -69,8 +69,8 @@ ENV LOG_LEVEL warn
 ENV ALLOW_OVERRIDE All
 ENV DATE_TIMEZONE UTC
 ENV TERM dumb
-ENV CMW_SERVER_NAME poc.classesmasses.com
-ENV CMW_APP_NAME cm-poc
+ENV CMW_SERVER_NAME sealed.bogex.com
+ENV CMW_APP_NAME cm-sealed
 
 COPY docker/info.php /var/www/html/
 COPY docker/run-lamp.sh /usr/sbin/

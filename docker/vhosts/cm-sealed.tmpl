@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+  ServerName CMW_SERVER_NAME
+  DocumentRoot "/var/www/html/CMW_SERVER_NAME/public"
+  ErrorLog /var/log/apache2/CMW_SERVER_NAME-error_log
+  CustomLog /var/log/apache2/CMW_SERVER_NAME-access_log combined env=!forwarded
+  CustomLog /var/log/apache2/CMW_SERVER_NAME-access_log proxy_combined env=forwarded
+  <Directory "/var/www/html/CMW_SERVER_NAME/public">
+    AllowOverride all
+  </Directory>
+</VirtualHost>

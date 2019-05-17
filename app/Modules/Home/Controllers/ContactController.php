@@ -48,4 +48,9 @@ class ContactController extends Controller
 
         return response()->json(['status' => 1, 'messages' => 'Message recorded.'], 200);
     }
+
+    public function hello(Request $request)
+    {
+        return response()->json(['status' => 1, 'messages' => 'Message recorded.'], 200);
+    }
 }

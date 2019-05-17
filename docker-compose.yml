@@ -9,7 +9,7 @@ app:
   environment:
    - LOG_STDOUT=access_log
    - LOG_STDERR=error_log
-   - CMW_SERVER_NAME=poc.classesmasses.com
-   - CMW_APP_NAME=cm-poc
+   - CMW_SERVER_NAME=sealed.bogex.com
+   - CMW_APP_NAME=cm-sealed
   extra_hosts:
    - "$CMW_SERVER_NAME:127.0.0.1"

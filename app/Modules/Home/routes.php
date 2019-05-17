@@ -16,4 +16,6 @@ Route::group(['middleware' => ['web']], function () {
     });
 
     Route::post('/contact', 'App\Modules\Home\Controllers\ContactController@store');
+
+    Route::get('/hello', 'App\Modules\Home\Controllers\ContactController@hello');
 });
