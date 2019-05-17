@@ -1,0 +1,15 @@
+app:
+  image: clintmario/ubuntu-lamp:poc1
+  ports:
+    - "8086:80"
+    - "33066:3306"
+    - "2206:22"
+  volumes:
+    - "./:/var/www/html/$CMW_SERVER_NAME/"
+  environment:
+   - LOG_STDOUT=access_log
+   - LOG_STDERR=error_log
+   - CMW_SERVER_NAME=poc.classesmasses.com
+   - CMW_APP_NAME=cm-poc
+  extra_hosts:
+   - "$CMW_SERVER_NAME:127.0.0.1"

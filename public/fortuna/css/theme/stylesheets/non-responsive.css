@@ -1,0 +1,32 @@
+/* ================================================
+
+Custom Responsive CSS
+
+================================================== */
+
+	@media only screen and (min-width: 300px) and (max-width: 1280px) {
+	
+		#wrapper, 
+		#wrapper.full_width_wrapper,
+		.boxed_wrapper, 
+		.boxed_wrapper #header, 
+		.boxed_wrapper #footer { width: 1260px;}
+		#header { position: relative; margin-top: 0 !important; }
+		#footer { position: relative; }
+
+		.content_body { margin-top: 0!important; margin-bottom: 0!important;}
+       
+        .container { width: 1200px; }
+			
+		/* Fix runtime size calculations to be full width */
+		.wpb_row:not(.vc_inner), .upb_row_bg { min-width: 1260px; }
+		.upb_video-bg { min-width: 1260px !important; }
+		
+		#transparent_logo { display: none;}
+		
+		.isotope_element { margin-bottom: 20px;}
+
+		.circ_counter { width: 150px; }
+		.logo_gallery { margin-left: 29px; padding-left: 20px; }	
+	}
+

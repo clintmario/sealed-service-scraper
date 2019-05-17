@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<url>
+  <loc>https://poc.classesmasses.com/</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/login</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/library</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/register</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/password/reset</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/courses</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tags</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/assignments</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/courses?subject_id=22</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/courses?subject_id=25</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/courses?subject_id=28</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/assignments?course_id=31</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/assignments?course_id=34</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/assignments?course_id=37</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=7</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=10</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=4</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=106</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1465</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1483</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=58</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=94</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=76</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=64</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=46</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=82</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1828</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=70</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=52</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=88</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=100</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=112</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1459</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1822</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1471</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1477</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=40</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=34</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=37</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=31</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=118</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1834</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?tag_id=1489</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=160</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=283</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=391</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=487</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=592</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=688</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=745</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=868</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=961</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1099</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1237</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1336</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1456</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1555</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1621</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1714</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1762</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1819</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=1954</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/tracks?assignment_id=2056</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=157</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=169</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=214</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=241</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=280</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=292</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=319</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=340</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=361</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=388</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=400</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=421</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=436</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=457</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=484</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=496</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=529</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=568</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=589</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=631</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=646</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=685</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=715</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=742</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=754</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=793</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=832</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=865</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=877</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=910</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=937</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=958</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=970</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=991</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1012</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1051</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1096</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1108</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1129</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1168</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1201</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1234</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1246</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1273</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1300</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1333</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1345</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1378</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1411</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1432</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1453</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1498</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1507</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1516</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1525</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1534</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1543</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1552</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1564</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1573</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1582</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1591</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1600</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1609</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1618</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1630</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1639</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1648</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1657</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1666</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1675</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1684</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1693</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1702</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1711</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1723</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1732</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1741</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1750</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1759</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1771</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1780</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1789</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1798</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1807</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1816</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1843</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1852</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1861</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1870</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1879</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1888</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1897</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1906</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1915</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1924</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1933</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1942</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1951</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1963</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1972</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1981</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1990</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=1999</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2008</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2017</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2026</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2035</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2044</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://poc.classesmasses.com/lessons?track_id=2053</loc>
+  <lastmod>2019-02-27T08:26:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+</urlset>

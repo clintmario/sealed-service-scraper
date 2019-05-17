@@ -1,0 +1,7 @@
+.col {
+    float: right;
+    margin-right: 3%;
+    margin-left: 0;
+}
+
+.col:first-child { margin-right: 0; margin-left: 0}

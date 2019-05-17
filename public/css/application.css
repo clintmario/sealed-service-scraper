@@ -1,0 +1,11 @@
+.cms-table-pagination {/*float: right;*/ font-size: 0.8125em /*13px*/; margin: 0.769230em 0 0.769230em 0 /*1.538461em*/ /*0 0*/ /*10px/20px*/; }
+.cms-table-pagination li {display: inline;}
+.cms-table-pagination li a {display:inline-block; width:4em /*26px*/; height: 2em; line-height: 2em; text-align: center; color:#666; background: #f7f7f7; border: 1px solid #ccc;}
+.cms-table-pagination li a:hover, .cms-table-pagination li a.current-page {text-decoration: none; color: #3b3b3b; background: #D1E6FB; border-color: #acacac;}
+.cms-table-pagination li a.current-page {font-weight: bold;}
+
+.clearfix:after {clear:both; content:"."; display:block; font-size:0; height:0; line-height:0; visibility:hidden;}
+.clearfix {zoom:1;}
+
+.cms-table-pagination {margin-top:20px; margin-bottom:0px;}
+.fortuna_table {margin: 0;}

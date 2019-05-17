@@ -1,0 +1,30 @@
+/* VC Custom BOC Animations */
+
+/* For larger screens */
+@media only screen and (min-width: 769px) {
+    /* Btn arrow bounce */
+	@-webkit-keyframes sideBounce {
+		0, 100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		50% {
+			-webkit-transform: translateX(-6px);
+			transform: translateX(-6px);
+		}
+	}
+	@keyframes sideBounce {
+		0, 100% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		50% {
+			-webkit-transform: translateX(-6px);
+			transform: translateX(-6px);
+		}
+	}
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+}

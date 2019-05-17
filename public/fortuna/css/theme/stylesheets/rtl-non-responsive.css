@@ -1,0 +1,11 @@
+/* ================================================
+
+Custom Responsive CSS
+
+================================================== */
+
+	@media only screen and (min-width: 300px) and (max-width: 1280px) {
+	
+		.logo_gallery { margin-left:auto; padding-left: auto; margin-right: 29px; padding-right: 20px; }	
+	}
+
