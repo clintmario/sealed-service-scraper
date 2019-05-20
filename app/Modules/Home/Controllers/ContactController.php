@@ -248,6 +248,7 @@ class ContactController extends Controller
         set_time_limit(0);
 
         $remoteFile = urldecode($request->input('remote_file'));
+        $remoteFile = "'" . $remoteFile . "'";
 
         $fileIdentifier = uniqid();
         $pdfFileName = $fileIdentifier . '.pdf';
