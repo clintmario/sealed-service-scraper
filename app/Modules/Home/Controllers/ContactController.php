@@ -276,9 +276,9 @@ class ContactController extends Controller
         while(!feof($fn))  {
             $lineNumber++;
             $line = fgets($fn);
-            if (preg_match('/Billing period:/', $line)) {
-                $fromDate = trim(preg_replace('/Billing period: (.*?) to .*/', "$1", $line));
-                $toDate = trim(preg_replace('/Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/Billing period:/i', $line)) {
+                $fromDate = trim(preg_replace('/Billing period: (.*?) to .*/i', "$1", $line));
+                $toDate = trim(preg_replace('/Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
                 $billingFromDate = date("n/d/Y", strtotime($fromDate));
                 $billingToDate = date("n/d/Y", strtotime($toDate));
 
@@ -287,44 +287,44 @@ class ContactController extends Controller
                 $billingPeriodLineNumber = $lineNumber;
             }
 
-            if (preg_match('/Esco electricity supply charges/', $line)) {
-                $escoCharge = trim(preg_replace('/.*?Esco electricity.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/Esco electricity supply charges/i', $line)) {
+                $escoCharge = trim(preg_replace('/.*?Esco electricity.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
 
                 $returnData['esco_electricity_charge'] = $escoCharge;
             }
 
-            if (preg_match('/lectricity charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 5) {
-                $electricityCharge = trim(preg_replace('/.*?lectricity charges.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/lectricity charges/i', $line) && $lineNumber - $billingPeriodLineNumber <= 5) {
+                $electricityCharge = trim(preg_replace('/.*?lectricity charges.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
 
                 $returnData['electricity_charge'] = $electricityCharge;
             }
 
-            if (preg_match('/Esco gas supply charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 6) {
-                $gasCharge = trim(preg_replace('/.*?Esco gas.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/Esco gas supply charges/i', $line) && $lineNumber - $billingPeriodLineNumber <= 6) {
+                $gasCharge = trim(preg_replace('/.*?Esco gas.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
 
                 $returnData['esco_gas_charge'] = $gasCharge;
             }
 
-            if (preg_match('/Gas charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 8) {
-                $gasCharge = trim(preg_replace('/.*?Gas charges.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/Gas charges/i', $line) && $lineNumber - $billingPeriodLineNumber <= 8) {
+                $gasCharge = trim(preg_replace('/.*?Gas charges.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
 
                 $returnData['gas_charge'] = $gasCharge;
             }
 
-            if (preg_match('/Total amount due/', $line) && $lineNumber - $billingPeriodLineNumber <= 10) {
-                $totalCharge = trim(preg_replace('/.*?Total amount due.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+            if (preg_match('/Total amount due/i', $line) && $lineNumber - $billingPeriodLineNumber <= 10) {
+                $totalCharge = trim(preg_replace('/.*?Total amount due.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
 
                 $returnData['total_charge'] = $totalCharge;
             }
 
-            if (preg_match('/Your electricity use.*Wh/', $line)) {
-                $electricityUsage = trim(preg_replace('/.*?Your electricity use.*?([\d,]+).*/', "$1", $line));
+            if (preg_match('/Your electricity use.*Wh/i', $line)) {
+                $electricityUsage = trim(preg_replace('/.*?Your electricity use.*?([\d,]+).*/i', "$1", $line));
 
                 $returnData['electricity_usage'] = $electricityUsage;
             }
 
-            if (preg_match('/Your gas use.*therms/', $line)) {
-                $gasUsage = trim(preg_replace('/.*?Your gas use.*?([\d]+).*/', "$1", $line));
+            if (preg_match('/Your gas use.*therms/i', $line)) {
+                $gasUsage = trim(preg_replace('/.*?Your gas use.*?([\d]+).*/i', "$1", $line));
 
                 $returnData['gas_usage'] = $gasUsage;
             }
