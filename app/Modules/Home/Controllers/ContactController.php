@@ -247,8 +247,7 @@ class ContactController extends Controller
     {
         set_time_limit(0);
 
-        $remoteFile = urldecode($request->input('remote_file'));
-        $remoteFile = "'" . $remoteFile . "'";
+        $remoteFile = $request->input('remote_file');
 
         $fileIdentifier = uniqid();
         $pdfFileName = $fileIdentifier . '.pdf';
@@ -273,6 +272,7 @@ class ContactController extends Controller
 
         $lineNumber = 0;
         $billingPeriodLineNumber = 0;
+        $flagTotalDue = false;
 
         while(!feof($fn))  {
             $lineNumber++;
@@ -312,10 +312,11 @@ class ContactController extends Controller
                 $returnData['gas_charge'] = $gasCharge;
             }
 
-            if (preg_match('/Total amount due/i', $line) && $lineNumber - $billingPeriodLineNumber <= 10) {
-                $totalCharge = trim(preg_replace('/.*?Total amount due.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
+            if (preg_match('/Total amount due/', $line) && ($lineNumber - $billingPeriodLineNumber <= 10) && !$flagTotalDue) {
+                $totalCharge = trim(preg_replace('/.*?Total amount due.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
 
                 $returnData['total_charge'] = $totalCharge;
+                $flagTotalDue = true;
             }
 
             if (preg_match('/Your electricity use.*Wh/i', $line)) {
