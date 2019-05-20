@@ -290,7 +290,7 @@ class ContactController extends Controller
             if (preg_match('/Esco electricity supply charges/', $line)) {
                 $escoCharge = trim(preg_replace('/.*?Esco electricity.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
 
-                $returnData['esco_charge'] = $escoCharge;
+                $returnData['esco_electricity_charge'] = $escoCharge;
             }
 
             if (preg_match('/lectricity charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 5) {
@@ -299,7 +299,13 @@ class ContactController extends Controller
                 $returnData['electricity_charge'] = $electricityCharge;
             }
 
-            if (preg_match('/Gas charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 6) {
+            if (preg_match('/Esco gas supply charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 6) {
+                $gasCharge = trim(preg_replace('/.*?Esco gas.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
+
+                $returnData['esco_gas_charge'] = $gasCharge;
+            }
+
+            if (preg_match('/Gas charges/', $line) && $lineNumber - $billingPeriodLineNumber <= 8) {
                 $gasCharge = trim(preg_replace('/.*?Gas charges.*?(\$.*?\.[0-9][0-9]).*/', "$1", $line));
 
                 $returnData['gas_charge'] = $gasCharge;
