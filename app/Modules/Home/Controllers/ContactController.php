@@ -272,7 +272,9 @@ class ContactController extends Controller
 
         $lineNumber = 0;
         $billingPeriodLineNumber = 0;
+        $electricityUsageLineNumber = 0;
         $flagTotalDue = false;
+        $electricityUsage = 0;
 
         while(!feof($fn))  {
             $lineNumber++;
@@ -319,10 +321,16 @@ class ContactController extends Controller
                 $flagTotalDue = true;
             }
 
-            if (preg_match('/Your electricity use.*Wh/i', $line)) {
+            if (preg_match('/Your electricity use.*Wh/i', $line) && empty($electricityUsageLineNumber)) {
+                $electricityUsageLineNumber = $lineNumber;
                 $electricityUsage = trim(preg_replace('/.*?Your electricity use.*?([\d,]+).*/i', "$1", $line));
 
                 $returnData['electricity_usage'] = $electricityUsage;
+            }
+
+            if (preg_match('/Wh billed/i', $line) && ($lineNumber - $electricityUsageLineNumber <= 3)) {
+                $electricityUsageBilled = trim(preg_replace('/.*?Wh billed.*?([\d,]+).*/i', "$1", $line));
+                $returnData['electricity_usage'] = -1 * $electricityUsage;
             }
 
             if (preg_match('/Your gas use.*therms/i', $line)) {
@@ -333,6 +341,9 @@ class ContactController extends Controller
         }
 
         fclose($fn);
+
+        unlink("/tmp/$pdfFileName");
+        unlink("/tmp/$txtFileName");
 
         return response()->json($returnData);
     }
