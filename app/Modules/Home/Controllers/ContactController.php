@@ -273,12 +273,37 @@ class ContactController extends Controller
         $lineNumber = 0;
         $billingPeriodLineNumber = 0;
         $electricityUsageLineNumber = 0;
+        $budgetBillLineNumber = 0;
         $flagTotalDue = false;
         $electricityUsage = 0;
 
         while(!feof($fn))  {
             $lineNumber++;
             $line = fgets($fn);
+
+            if (preg_match('/MONTH LEVEL PAYMENT PLAN \(LPP\)/i', $line)) {
+                $budgetBillLineNumber = $lineNumber;
+                $returnData['is_budget'] = true;
+            }
+            if (!empty($budgetBillLineNumber) && $lineNumber - $budgetBillLineNumber <= 5 && preg_match('/.*?(\d+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*/i', $line)) {
+                $budgetMonths = preg_replace('/.*?(\d+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*/i', "$1", $line);
+                $budgetBillLPPToDate = preg_replace('/.*?(\d+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*/i', "$2", $line);
+                $budgetBillActualToDate = preg_replace('/.*?(\d+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*?(\$[\d,\.]+).*/i', "$3", $line);
+                $budgetDifference = round(floatval(preg_replace('/[^\d\.]+/', '', $budgetBillActualToDate)) - floatval(preg_replace('/[^\d\.]+/', '', $budgetBillLPPToDate)), 2);
+
+                $returnData['budget_months'] = $budgetMonths;
+                $returnData['budget_lpp_to_date'] = $budgetBillLPPToDate;
+                $returnData['budget_actual_to_date'] = $budgetBillActualToDate;
+                $returnData['budget_difference'] = $budgetDifference;
+            }
+
+            if (preg_match('/Next (billing|meter reading) date/i', $line)) {
+                $nextMeterReadingDate = trim(preg_replace('/.*?Next (billing|meter reading) date: (.*?[0-9][0-9][0-9][0-9]).*/i', "$2", $line));
+                $nextMeterReadingDate = date("n/d/Y", strtotime($nextMeterReadingDate));
+
+                $returnData['next_meter_reading_date'] = $nextMeterReadingDate;
+            }
+
             if (preg_match('/Billing period:/i', $line)) {
                 $fromDate = trim(preg_replace('/Billing period: (.*?) to .*/i', "$1", $line));
                 $toDate = trim(preg_replace('/Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
