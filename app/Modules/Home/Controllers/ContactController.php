@@ -276,6 +276,8 @@ class ContactController extends Controller
         $budgetBillLineNumber = 0;
         $flagTotalDue = false;
         $electricityUsage = 0;
+        $hasElectricBill = false;
+        $hasGasBill = false;
 
         while(!feof($fn))  {
             $lineNumber++;
@@ -304,15 +306,41 @@ class ContactController extends Controller
                 $returnData['next_meter_reading_date'] = $nextMeterReadingDate;
             }
 
-            if (preg_match('/Billing period:/i', $line)) {
-                $fromDate = trim(preg_replace('/Billing period: (.*?) to .*/i', "$1", $line));
-                $toDate = trim(preg_replace('/Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
+            if (preg_match('/Billing period:/i', $line) && empty($billingPeriodLineNumber)) {
+                $fromDate = trim(preg_replace('/.*?Billing period: (.*?) to .*/i', "$1", $line));
+                $toDate = trim(preg_replace('/.*?Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
                 $billingFromDate = date("n/d/Y", strtotime($fromDate));
                 $billingToDate = date("n/d/Y", strtotime($toDate));
 
-                $returnData['bill_from_date'] = $billingFromDate;
-                $returnData['bill_to_date'] = $billingToDate;
+                $returnData['electric_bill_from_date'] = $billingFromDate;
+                $returnData['electric_bill_to_date'] = $billingToDate;
+                $returnData['gas_bill_from_date'] = $billingFromDate;
+                $returnData['gas_bill_to_date'] =  $billingToDate ;
                 $billingPeriodLineNumber = $lineNumber;
+            }
+
+            if (preg_match('/Electric Billing period:/i', $line)) {
+                $electricBillingFromDate = trim(preg_replace('/.*?Electric Billing period: (.*?) to .*/i', "$1", $line));
+                $electricBillingToDate = trim(preg_replace('/.*?Electric Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
+                if (!empty($electricBillingFromDate)) {
+                    $electricBillingFromDate = date("n/d/Y", strtotime($electricBillingFromDate));
+                    $electricBillingToDate = date("n/d/Y", strtotime($electricBillingToDate));
+                } 
+
+                $returnData['electric_bill_from_date'] = $electricBillingFromDate;
+                $returnData['electric_bill_to_date'] = $electricBillingToDate;
+            }
+
+            if (preg_match('/Gas Billing period:/i', $line)) {
+                $gasBillingFromDate = trim(preg_replace('/.*?Gas Billing period: (.*?) to .*/i', "$1", $line));
+                $gasBillingToDate = trim(preg_replace('/.*?Gas Billing period: .*? to (.*?[0-9][0-9][0-9][0-9]).*/i', "$1", $line));
+                if (!empty($gasBillingFromDate)) {
+                    $gasBillingFromDate = date("n/d/Y", strtotime($gasBillingFromDate));
+                    $gasBillingToDate = date("n/d/Y", strtotime($gasBillingToDate));
+                } 
+
+                $returnData['gas_bill_from_date'] = $gasBillingFromDate;
+                $returnData['gas_bill_to_date'] = $gasBillingToDate;
             }
 
             if (preg_match('/Esco electricity supply charges/i', $line)) {
@@ -355,7 +383,7 @@ class ContactController extends Controller
 
             if (preg_match('/Wh billed/i', $line) && ($lineNumber - $electricityUsageLineNumber <= 3)) {
                 $electricityUsageBilled = trim(preg_replace('/.*?Wh billed.*?([\d,]+).*/i', "$1", $line));
-                $returnData['electricity_usage'] = -1 * $electricityUsage;
+                $returnData['electricity_usage'] = $electricityUsageBilled ?? -1 * $electricityUsage;
             }
 
             if (preg_match('/Your gas use.*therms/i', $line)) {
@@ -363,12 +391,44 @@ class ContactController extends Controller
 
                 $returnData['gas_usage'] = $gasUsage;
             }
+
+            if (preg_match('/Your electricity.*charges/i', $line)) {
+                if (empty($returnData['electricity_charge'])) {
+                    $hasElectricBill = true;
+                }
+            }
+
+            if ($hasElectricBill && preg_match('/Total delivery charges/i', $line)) {
+                $electricityCharge = trim(preg_replace('/.*?Total delivery charges.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
+                $hasElectricBill = false;
+
+                $returnData['electricity_charge'] = $electricityCharge;
+            }
+
+            if (preg_match('/Your gas.*charges/i', $line)) {
+                if (empty($returnData['gas_charge'])) {
+                    $hasGasBill = true;
+                }
+            }
+
+            if ($hasGasBill && preg_match('/Total delivery charges/i', $line)) {
+                $gasCharge = trim(preg_replace('/.*?Total delivery charges.*?(\$.*?\.[0-9][0-9]).*/i', "$1", $line));
+                $hasGasBill = false;
+
+                $returnData['gas_charge'] = $gasCharge;
+            }
+
+            if (preg_match('/please pay the total amount due by/i', $line)) {
+                $dueDate = trim(preg_replace('/.*please pay the total amount due by (.*?)\..*/i', "$1", $line));
+                $dueDate = date("n/d/Y", strtotime($dueDate));
+                $returnData['utility_due_date'] = $dueDate;
+            }
         }
 
         fclose($fn);
 
-        unlink("/tmp/$pdfFileName");
-        unlink("/tmp/$txtFileName");
+        //unlink("/tmp/$pdfFileName");
+        //unlink("/tmp/$txtFileName");
 
         return response()->json($returnData);
     }
