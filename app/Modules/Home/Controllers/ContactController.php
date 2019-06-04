@@ -278,6 +278,7 @@ class ContactController extends Controller
         $electricityUsage = 0;
         $hasElectricBill = false;
         $hasGasBill = false;
+        $returnData['autopay'] = 'No';
 
         while(!feof($fn))  {
             $lineNumber++;
@@ -423,12 +424,16 @@ class ContactController extends Controller
                 $dueDate = date("n/d/Y", strtotime($dueDate));
                 $returnData['utility_due_date'] = $dueDate;
             }
+
+            if (preg_match('/Direct Payment Plan/i', $line)) {
+                $returnData['autopay'] = 'Yes';
+            }
         }
 
         fclose($fn);
 
-        //unlink("/tmp/$pdfFileName");
-        //unlink("/tmp/$txtFileName");
+        unlink("/tmp/$pdfFileName");
+        unlink("/tmp/$txtFileName");
 
         return response()->json($returnData);
     }
