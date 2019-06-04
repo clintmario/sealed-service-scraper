@@ -279,6 +279,7 @@ class ContactController extends Controller
         $hasElectricBill = false;
         $hasGasBill = false;
         $returnData['autopay'] = 'No';
+        $dpp = false;
 
         while(!feof($fn))  {
             $lineNumber++;
@@ -426,6 +427,10 @@ class ContactController extends Controller
             }
 
             if (preg_match('/Direct Payment Plan/i', $line)) {
+                $dpp = true;
+            }
+
+            if ($dpp == true && preg_match('/Do Not Pay/i', $line)) {
                 $returnData['autopay'] = 'Yes';
             }
         }
